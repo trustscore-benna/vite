@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+
+.runway {
+  width: 100vw;
+  height: 100vh;
+  background: url("media/rafael-garcin-8fJH8hsMCIU-unsplash.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+
+.plane {
+  position: absolute;
+  bottom: 150px; 
+  left: -200px;  
+  width: 200px;
+
+  animation: fly 6s linear infinite;
+}
+
+
+@keyframes fly {
+  0% {
+    left: -200px;
+  }
+
+  100% {
+    left: 110%;
+  }
+}

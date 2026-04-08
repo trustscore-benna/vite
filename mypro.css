@@ -1,0 +1,80 @@
+/* style.css */
+
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+}
+
+/* Style the form container */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style all labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style all inputs and textarea */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Focus effect (when user clicks input) */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Style radio/checkbox labels */
+label input[type="radio"],
+label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Hover effect on button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

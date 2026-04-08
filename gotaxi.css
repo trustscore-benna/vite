@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scene img{
+    width: 200px%;
+}
+.road {
+    height:150px;
+    background-color: black;
+   overflow-x: hidden;
+   position: relative;
+}
+
+.second-lane{
+    border-top: 3px solid white
+}
+
+.road img {
+    width: 150%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.second-lane img{
+    margin-top: 40px;
+}
+
+.cars1 {
+    animation-name: cars1;
+}
+
+.cars2{
+    animation-name: cars2;
+}
+.cars3{
+    animation-name: cars3;
+}
+
+@keyframes cars1 {
+    from {
+        transform: translateX(-4000px)
+    }
+    
+    to {
+        transform: translateX(1500px);
+    }
+}
+
+@keyframes cars2 { 
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(1500px);
+    }
+}
+@keyframes cars3 {
+    from {
+        transform: translateX(2000px);
+    }
+    to {
+        transform: translateX(-2000px);
+    }
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 4px auto;
+    background-color: coral;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 33% 53%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+
+}

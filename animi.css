@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    margin: 50px auto;
+    background-image: url(media/rafael-garcin-8fJH8hsMCIU-unsplash.jpg) ;
+    background-image: ;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border-radius: 50px;
+    animation-name: changecolor ;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-out;
+   
+}
+
+@keyframes changecolor {
+    /* form {
+        background-color: tomato;
+        transform: translateX(0%);
+    }
+    to {
+        background-color: whitesmoke;
+        transform: translateX(985px);
+    } */
+        0% {
+        background-color: tomato;
+        transform: translateX(0%);
+    }
+    50% {
+        background-color: whitesmoke;
+        transform: translateX(985px);
+    }
+
+    75% {
+        transform: translate(0, 400px);
+    }
+    /* 100% {
+        transform: translateY(400px);
+    } */
+}

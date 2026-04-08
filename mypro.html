@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mypro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <form action="Student Registration">
+        <label for="Fullname">Fullname</label><br>
+        <input type="text" id="name" name="required"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="required"><br><br>
+
+        <label for="age"> Age</label><br>
+        <input type="number" id="age" name="required" min="13" max="100"><br><br>
+
+        <label for="password">password</label><br>
+        <input type="text" id="password" name="required"><br><br>
+
+        <label for="BirthDate">BirthDate</label><br>
+        <input type="date" id="Date" name="required"><br><br>
+
+        <h3>Gender:</h3>
+<label>
+    <input type="radio" name="gender" value="male" checked>
+    Male
+</label><br>
+
+<label>
+    <input type="radio" name="gender" value="female">
+    Female
+</label><br>
+
+<label>
+    <input type="radio" name="gender" value="other">
+    Other
+</label><br><br>
+
+<h3>Subjects:</h3>
+<label>
+    <input type="checkbox" name="math" value="yes">
+    Math
+</label><br>
+
+<label>
+    <input type="checkbox" name="science" value="yes">
+    Science
+</label><br>
+
+<label>
+    <input type="checkbox" name="English" value="yes">
+    English
+</label>
+<label for="bio">Bio:</label><br>
+<textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+<label>
+    <input type="checkbox" name="terms" required>
+    I agree to the terms and conditions
+</label><br><br>
+
+<button>submit</button>
+
+    </form>
+</body>
+</html>
